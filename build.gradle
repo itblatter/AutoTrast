@@ -62,8 +62,8 @@ tasks.register('checking_test', Test) {
     classpath = sourceSets.test.runtimeClasspath
 }
 
-tasks.register("copyAllureResults", Copy) {
-    dependsOn test
-    from "$buildDir/allure-results"
-    into "$projectDir/allure-results"
-}
+//tasks.register("copyAllureResults", Copy) {
+//    dependsOn test
+//    from "$buildDir/allure-results"
+//    into "$projectDir/allure-results"
+//}

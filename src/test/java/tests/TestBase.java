@@ -24,7 +24,7 @@ public class TestBase {
         Configuration.timeout = 10000;
         Configuration.browserSize = "1920x1080";
         Configuration.pageLoadStrategy = "eager"; //стратегия загрузки, не дожидаемся полной загрузки
-        Configuration.baseUrl = "https://www.mvideo.ru/"; // выносим основной сайт
+        Configuration.baseUrl = "https://dev.a-trast.ru/login"; // выносим страницу авторизации
         Configuration.holdBrowserOpen = false;
 
 
